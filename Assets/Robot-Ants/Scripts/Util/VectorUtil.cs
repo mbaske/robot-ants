@@ -25,18 +25,18 @@ namespace RobotAnts
             if (Physics.Raycast(ray, out hit, 20f, 1 << 8))
                 return hit.point.OffsetY(offsetOut);
 
-			return Vector3.zero;
+            return Vector3.zero;
         }
 
-		public static bool IsValid(this Vector3 pos)
-		{
-			return pos != Vector3.zero;
-		}
+        public static bool IsValid(this Vector3 pos)
+        {
+            return pos != Vector3.zero;
+        }
       
-		public static float NormAngle2D(Vector3 position, Vector3 target, Vector2 axis)
+        public static float NormAngle2D(Vector3 position, Vector3 target, Vector2 axis)
         {
             Vector2 delta = new Vector2(target.x - position.x, target.z - position.z);
-			return Vector2.SignedAngle(delta, axis) / 180f;
+            return Vector2.SignedAngle(delta, axis) / 180f;
         }
     }
 }

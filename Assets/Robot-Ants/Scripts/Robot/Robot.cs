@@ -4,89 +4,89 @@ using System;
 
 namespace RobotAnts
 {
-	public class Robot : MonoBehaviour
-	{
-		public Body body;
+    public class Robot : MonoBehaviour
+    {
+        public Body body;
         public Leg[] legs = new Leg[6];
       
         // Seconds
-		public float timeout = 5f; 
-		// From energy +1 to 0
+        public float timeout = 5f; 
+        // From energy +1 to 0
         public float depletionTime = 15f;
 
         // Unity standard units
-		public float searchRadius = 3f;
+        public float searchRadius = 3f;
         public float targetThreshold = 0.5f;
         public float powerupThreshold = 0.5f;      
-		public float trailDensity = 0.5f; 
+        public float trailDensity = 0.5f; 
 
         public int numWayPoints = 10;
 
         // Divider will yield deltas between approx. -0.5 to +0.5
-		// Deltas of -1 are used to flag off terrain scans.
+        // Deltas of -1 are used to flag off terrain scans.
         private const float DIV_ELEVATION_DELTA = 10f;
 
-		private const int N_SCAN_POINTS = 8;
+        private const int N_SCAN_POINTS = 8;
 
         // Y at ground level
-		private Vector3 position;      
+        private Vector3 position;      
         private Vector3 targetPosition;
-		private Vector3 powerupPos;
+        private Vector3 powerupPos;
         private Vector3 prevTrailPos;      
 
         // 2D
-		private Vector2 forwardAxis;
+        private Vector2 forwardAxis;
 
-		// 2D
-		private float targetAngle; 
-		// 3D
-		private float targetDistance; 
-		private float prevTargetDistance;   
+        // 2D
+        private float targetAngle; 
+        // 3D
+        private float targetDistance; 
+        private float prevTargetDistance;   
 
-		// 2D
-		private float distanceCovered;
-		private Queue wayPoints;
+        // 2D
+        private float distanceCovered;
+        private Queue wayPoints;
 
-		private float trailStrength;
-		// 2D
-		private float trailDirection;     
+        private float trailStrength;
+        // 2D
+        private float trailDirection;     
 
-		private float[] elevationDeltas;           
-		private float degScan;
+        private float[] elevationDeltas;           
+        private float degScan;
         private float energy;      
-		private bool isAtTarget;
+        private bool isAtTarget;
         private bool foundPowerup;
         private Collider[] colliders;
-		// Callbacks on AgentExplore
-		private Action callbackSuccess;
-		private Action callbackFail;
+        // Callbacks on AgentExplore
+        private Action callbackSuccess;
+        private Action callbackFail;
 
-		#region Observations
-		/// <summary>
+        #region Observations
+        /// <summary>
         /// Returns the robot's orientation in 2D space.
         /// </summary>
         /// <returns>
         /// <c>Float</c> - value between -1 and +1.
         /// </returns>
-		internal float GetOrientation()
+        internal float GetOrientation()
         {
-			return body.GetOrientation();
+            return body.GetOrientation();
         }
 
-		/// <summary>
+        /// <summary>
         /// Returns the robot's distance to the current target position.
         /// </summary>
         /// <returns>
         /// <c>Float</c> - value between -1 and +1.
-		/// +1 -> at target, 0 -> search radius away from target (on level ground).
+        /// +1 -> at target, 0 -> search radius away from target (on level ground).
         /// </returns>
         internal float GetTargetDistance()
         {
-			return Mathf.Max(-1f, 1f - targetDistance / searchRadius);
+            return Mathf.Max(-1f, 1f - targetDistance / searchRadius);
         }
 
-		/// <summary>
-		/// Returns the robot's relative angle (2D) towards the current target position.
+        /// <summary>
+        /// Returns the robot's relative angle (2D) towards the current target position.
         /// </summary>
         /// <returns>
         /// <c>Float</c> - value between -1 and +1.
@@ -96,60 +96,60 @@ namespace RobotAnts
             return targetAngle;
         }
 
-		/// <summary>
+        /// <summary>
         /// Returns the robot's energy level.
         /// </summary>
         /// <returns>
         /// <c>Float</c> - value between -1 and +1.
         /// </returns>
         internal float GetEnergy()
-		{
-			return Mathf.Max(-1f, energy / depletionTime);
-		}
+        {
+            return Mathf.Max(-1f, energy / depletionTime);
+        }
         
-		/// <summary>
+        /// <summary>
         /// Returns trail info if blobs or power-ups were detected.
         /// </summary>
         /// <returns>
         /// <c>Float[]</c> - values between -1 and +1.
-		/// Trail strength -1 flags no trail/power-up present.
-		/// Trail direction is the robot's relative angle (2D) towards the trail	
-		/// center or power-up position.
+        /// Trail strength -1 flags no trail/power-up present.
+        /// Trail direction is the robot's relative angle (2D) towards the trail    
+        /// center or power-up position.
         /// </returns>
-		internal float[] GetTrailInfo()
+        internal float[] GetTrailInfo()
         {
-			return new float[] { trailStrength, trailDirection };
+            return new float[] { trailStrength, trailDirection };
         }
       
-		/// <summary>
-		/// Returns the elevation differences between the robot's position
-		/// and 8 points on the boundary of its search radius.
+        /// <summary>
+        /// Returns the elevation differences between the robot's position
+        /// and 8 points on the boundary of its search radius.
         /// </summary>
         /// <returns>
         /// <c>Float[]</c> - values between -1 and +1.
-		/// -1 flags off terrain scan (no raycast hit).
+        /// -1 flags off terrain scan (no raycast hit).
         /// </returns>
-		internal float[] GetElevation()
+        internal float[] GetElevation()
         {
-			return elevationDeltas;
+            return elevationDeltas;
         }
         
-		/// <summary>
-		/// Returns the distance covered by the robot as a fraction:
-		/// Summed distances between n consecutive waypoints / (n - 1) * search radius.
+        /// <summary>
+        /// Returns the distance covered by the robot as a fraction:
+        /// Summed distances between n consecutive waypoints / (n - 1) * search radius.
         /// </summary>
         /// <returns>
         /// <c>Float[]</c> - value between 0 and +1.
         /// </returns>
-		internal float GetDistanceCovered()
+        internal float GetDistanceCovered()
         {
             return distanceCovered;
         }
-		#endregion
+        #endregion
       
-		internal float GetRewardWalk()
+        internal float GetRewardWalk()
         {
-			float penaltyDistance = (targetDistance / searchRadius) * 0.05f;
+            float penaltyDistance = (targetDistance / searchRadius) * 0.05f;
 
             float rewardMovement = 0f;
             if (prevTargetDistance > 0f)
@@ -158,41 +158,41 @@ namespace RobotAnts
                 // Focus direction
                 rewardMovement *= (rewardMovement > 0f ? 1f - Mathf.Abs(targetAngle) : 1f);
             }
-			prevTargetDistance = targetDistance;
+            prevTargetDistance = targetDistance;
 
             return rewardMovement - penaltyDistance;
         }
 
-		internal float GetRewardExplore()
+        internal float GetRewardExplore()
         {
-			return distanceCovered + GetEnergy() * 0.3f;
+            return distanceCovered + GetEnergy() * 0.3f;
         }
 
-		internal Transform GetCamTarget()
+        internal Transform GetCamTarget()
         {
             return body.transform;
         }
 
-		   
-		// Callbacks in AgentExplore
-		internal void AddCallbacks(Action success, Action fail)
+           
+        // Callbacks in AgentExplore
+        internal void AddCallbacks(Action success, Action fail)
         {
             callbackSuccess = success;
             callbackFail = fail;
         }
       
 
-		/// <summary>
-		/// Called by AgentExplore.
+        /// <summary>
+        /// Called by AgentExplore.
         /// Sets the new target position in relation to the robot.
         /// </summary>
-		/// <param name="angle">Float value between -1 and +1, relative angle 
-		/// towards the target, 0 -> straight ahead.</param>
-		/// <param name="distance">Float value between -1 and +1 (sign is ignored), 
-		/// relative distance to target, 0 -> search radius.</param>
+        /// <param name="angle">Float value between -1 and +1, relative angle 
+        /// towards the target, 0 -> straight ahead.</param>
+        /// <param name="distance">Float value between -1 and +1 (sign is ignored), 
+        /// relative distance to target, 0 -> search radius.</param>
         internal void SetTargetPosition(float angle, float distance)
         {         
-			angle = (body.GetOrientation() + Mathf.Clamp(angle, -1f, 1f)) * Mathf.PI;
+            angle = (body.GetOrientation() + Mathf.Clamp(angle, -1f, 1f)) * Mathf.PI;
             distance = (1f - Mathf.Min(Mathf.Abs(distance), 1f)) * searchRadius; 
          
             Vector3 pos = position;
@@ -213,7 +213,7 @@ namespace RobotAnts
             }
         }
 
-		/// <summary>
+        /// <summary>
         /// Sets the new target position.
         /// </summary>
         /// <param name="pos">Vector3, y is assumed to be at ground level.</param>
@@ -224,30 +224,30 @@ namespace RobotAnts
         }
 
 
-		/// <summary>
-		/// Called by AgentWalk.
-		/// StepUpdate is used instead of FixedUpdate for explicit
-		/// control over the invocation order: Agent -> Robot -> Body/Feet.
+        /// <summary>
+        /// Called by AgentWalk.
+        /// StepUpdate is used instead of FixedUpdate for explicit
+        /// control over the invocation order: Agent -> Robot -> Body/Feet.
         /// </summary>
-		internal bool StepUpdate()
+        internal bool StepUpdate()
         {
             body.StepUpdate();
             for (int i = 0; i < 6; i++)
                 legs[i].foot.StepUpdate();
 
-			if (body.FellOver())
-			{
-				ResetDefaults(true);
-				NotifyFail();
-				return false;
-			}
+            if (body.FellOver())
+            {
+                ResetDefaults(true);
+                NotifyFail();
+                return false;
+            }
 
-			position = body.GetPosition();
-			forwardAxis = body.GetForwardAxis();
-			targetDistance = Vector3.Distance(position, targetPosition);
-			targetAngle = VectorUtil.NormAngle2D(position, targetPosition, forwardAxis);
+            position = body.GetPosition();
+            forwardAxis = body.GetForwardAxis();
+            targetDistance = Vector3.Distance(position, targetPosition);
+            targetAngle = VectorUtil.NormAngle2D(position, targetPosition, forwardAxis);
 
-			if (foundPowerup && Vector3.Distance(position, powerupPos) < powerupThreshold)
+            if (foundPowerup && Vector3.Distance(position, powerupPos) < powerupThreshold)
             {
                 SetEnergy(1f);
             }
@@ -268,27 +268,27 @@ namespace RobotAnts
                 callbackSuccess();
             }         
 
-			return true;
-		}
+            return true;
+        }
       
-		private void NotifyFail()
+        private void NotifyFail()
         {
-			// Callback AgentExplore
-			// Robot fell over or timed out or target position was off terrain.
-			callbackFail();
+            // Callback AgentExplore
+            // Robot fell over or timed out or target position was off terrain.
+            callbackFail();
         }
 
 
-		private void ScanElevation()
+        private void ScanElevation()
         {
             Vector3 pos;
-			float angle = body.GetOrientation() * Mathf.PI;
+            float angle = body.GetOrientation() * Mathf.PI;
             for (int i = 0; i < N_SCAN_POINTS; i++)
             {
                 pos = position;
-				pos = new Vector3(pos.x + searchRadius * Mathf.Cos(angle + i * degScan * Mathf.Deg2Rad),
+                pos = new Vector3(pos.x + searchRadius * Mathf.Cos(angle + i * degScan * Mathf.Deg2Rad),
                                   pos.y,
-				                  pos.z + searchRadius * Mathf.Sin(angle + i * degScan * Mathf.Deg2Rad));
+                                  pos.z + searchRadius * Mathf.Sin(angle + i * degScan * Mathf.Deg2Rad));
                 pos = pos.GroundPos();
             
                 if (pos.IsValid())
@@ -305,16 +305,16 @@ namespace RobotAnts
 
         private void TrackDistance(bool reset = false)
         {
-			if (reset)
-			{
-				wayPoints.Clear();
-			}
+            if (reset)
+            {
+                wayPoints.Clear();
+            }
             else if (wayPoints.Count == numWayPoints)
-			{
-				wayPoints.Dequeue();
-			}
+            {
+                wayPoints.Dequeue();
+            }
 
-			Vector2 pos = targetPosition.Flatten();
+            Vector2 pos = targetPosition.Flatten();
             wayPoints.Enqueue(pos);
             distanceCovered = Mathf.Min(1f,
                                         Vector2.Distance((Vector2)wayPoints.Peek(), pos)
@@ -332,9 +332,9 @@ namespace RobotAnts
             if (foundPowerup)
             {
                 powerupPos = colliders[0].transform.position.OffsetY(-PowerUp.OFFSET);
-				trailDirection = VectorUtil.NormAngle2D(position, powerupPos, forwardAxis);
+                trailDirection = VectorUtil.NormAngle2D(position, powerupPos, forwardAxis);
                 trailStrength = 1f;
-				Debug.DrawLine(position, powerupPos, Color.cyan, 1f);
+                Debug.DrawLine(position, powerupPos, Color.cyan, 1f);
             }
             else
             {
@@ -362,28 +362,28 @@ namespace RobotAnts
                         centroid += Vector3.Lerp(position, pos[i], (strength[i] - minStrength) * spread);
                     }
                     centroid /= n;
-					trailStrength /= n;               
-					trailDirection = VectorUtil.NormAngle2D(position, centroid, forwardAxis);
-					Debug.DrawLine(position, centroid, Color.cyan, 1f);
+                    trailStrength /= n;               
+                    trailDirection = VectorUtil.NormAngle2D(position, centroid, forwardAxis);
+                    Debug.DrawLine(position, centroid, Color.cyan, 1f);
                 }
             }
         }
 
-		private void Update()
+        private void Update()
         {
             energy -= Time.deltaTime;    
-			body.DisplayEnergy(GetEnergy());
+            body.DisplayEnergy(GetEnergy());
 
             if (energy > 0f)
-			{
-				LeaveEnergyTrail();
-			}         
+            {
+                LeaveEnergyTrail();
+            }         
         }
 
         private void SetEnergy(float e)
         {
             energy = e * depletionTime;
-			body.DisplayEnergy(GetEnergy());
+            body.DisplayEnergy(GetEnergy());
         }
 
         private void LeaveEnergyTrail()
@@ -392,11 +392,11 @@ namespace RobotAnts
             {
                 prevTrailPos = position;
                 TrailBlob blob = PoolManager.SpawnBlob(position).GetComponent<TrailBlob>();
-				blob.SetEnergy(GetEnergy());
+                blob.SetEnergy(GetEnergy());
             }
         }      
 
-		private void Awake()
+        private void Awake()
         {
             wayPoints = new Queue();
             colliders = new Collider[100];
@@ -411,7 +411,7 @@ namespace RobotAnts
             ResetDefaults();
         }
 
-		private void ResetDefaults(bool resetPosition = false)
+        private void ResetDefaults(bool resetPosition = false)
         {
             if (resetPosition)
             {
@@ -420,15 +420,15 @@ namespace RobotAnts
                     legs[i].ResetPosition();
             }
 
-			position = body.GetPosition();
-			forwardAxis = body.GetForwardAxis();
+            position = body.GetPosition();
+            forwardAxis = body.GetForwardAxis();
             targetPosition = position;
             prevTrailPos = position;
             targetDistance = 0f;
             prevTargetDistance = 0f;
             targetAngle = 0f;
             isAtTarget = true;         
-			SetEnergy(-1f);
+            SetEnergy(-1f);
             TrackDistance(true);
             ScanElevation();
             SearchVicinity();
@@ -440,5 +440,5 @@ namespace RobotAnts
             for (int i = 0; i < 6; i++)
                 legs[i].SavePosition();
         }
-	}
+    }
 }

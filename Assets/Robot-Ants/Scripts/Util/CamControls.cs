@@ -9,10 +9,10 @@ namespace RobotAnts
     [RequireComponent(typeof(Image))]
     public class CamControls : UIBehaviour, IDragHandler
     {      
-		public Transform cam;
+        public Transform cam;
 
-		private Robot[] robots;
-		private int index = 0;
+        private Robot[] robots;
+        private int index = 0;
 
         [Header("Position")]
         public float distanceMin = 10;
@@ -32,8 +32,8 @@ namespace RobotAnts
         private float lookAngle;
         private float tiltAngle;
         private Quaternion rotation;
-		private Vector3 pos;
-		private bool freeze = false;
+        private Vector3 pos;
+        private bool freeze = false;
       
         protected override void Awake()
         {
@@ -41,10 +41,10 @@ namespace RobotAnts
 
             GameObject[] g = GameObject.FindGameObjectsWithTag("Agent");
             int n = g.Length;
-			robots = new Robot[n];
+            robots = new Robot[n];
             for (int i = 0; i < n; i++)
-				robots[i] = g[i].GetComponent<Robot>();
-			
+                robots[i] = g[i].GetComponent<Robot>();
+            
             tiltAngle = (tiltMin + tiltMax) / 2;
             distance = scrollDistance = (distanceMax + distanceMin) / 2;
          
@@ -54,54 +54,54 @@ namespace RobotAnts
 
         private void LateUpdate()
         {
-			float f = Time.deltaTime * 65f;
+            float f = Time.deltaTime * 65f;
 
-			if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-				// swap target
-				index = (index < robots.Length - 1) ? index + 1 : 0;
+                // swap target
+                index = (index < robots.Length - 1) ? index + 1 : 0;
             }
-			else if (Input.GetKeyDown(KeyCode.F))
+            else if (Input.GetKeyDown(KeyCode.F))
             {
-				// toggle freeze
-				freeze = !freeze;
+                // toggle freeze
+                freeze = !freeze;
             }
 
             // tilt / zoom
-			if (Input.GetKey(KeyCode.W))
-			{
-				if (Input.GetKey(KeyCode.LeftShift))
-				{
-					scrollDistance -= 0.15f * f;
-				}
-				else
-				{
-					tiltAngle += 0.7f * f;
-				}            
-			}
-			else if (Input.GetKey(KeyCode.S))
+            if (Input.GetKey(KeyCode.W))
             {
-				if (Input.GetKey(KeyCode.LeftShift))
+                if (Input.GetKey(KeyCode.LeftShift))
                 {
-					scrollDistance += 0.15f * f;
+                    scrollDistance -= 0.15f * f;
                 }
                 else
                 {
-					tiltAngle -= 0.7f * f;
+                    tiltAngle += 0.7f * f;
+                }            
+            }
+            else if (Input.GetKey(KeyCode.S))
+            {
+                if (Input.GetKey(KeyCode.LeftShift))
+                {
+                    scrollDistance += 0.15f * f;
+                }
+                else
+                {
+                    tiltAngle -= 0.7f * f;
                 }   
             }
 
             // rotate
-			if (Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.A))
             {
-				lookAngle += 0.7f * f;
+                lookAngle += 0.7f * f;
             }
             else if (Input.GetKey(KeyCode.D))
             {
-				lookAngle -= 0.7f * f;
+                lookAngle -= 0.7f * f;
             }
 
-			rotation = Quaternion.Euler(tiltAngle, lookAngle, 0);
+            rotation = Quaternion.Euler(tiltAngle, lookAngle, 0);
 
             if (cam.rotation != rotation)
             {
@@ -123,28 +123,28 @@ namespace RobotAnts
             }
             
             // block
-			if (!Input.GetKey(KeyCode.LeftCommand) && !Input.GetKey(KeyCode.LeftAlt))
-			{
-				cam.position = CalculateCameraPosition();
-			}
+            if (!Input.GetKey(KeyCode.LeftCommand) && !Input.GetKey(KeyCode.LeftAlt))
+            {
+                cam.position = CalculateCameraPosition();
+            }
 
             // pan
-			if (Input.GetKey(KeyCode.LeftArrow))
-			{
-				cam.Translate(cam.transform.TransformDirection(Vector3.left) * 0.075f * f, Space.World);
-			}
-			else if (Input.GetKey(KeyCode.RightArrow))
+            if (Input.GetKey(KeyCode.LeftArrow))
             {
-				cam.Translate(cam.transform.TransformDirection(Vector3.right) * 0.075f * f, Space.World);
+                cam.Translate(cam.transform.TransformDirection(Vector3.left) * 0.075f * f, Space.World);
+            }
+            else if (Input.GetKey(KeyCode.RightArrow))
+            {
+                cam.Translate(cam.transform.TransformDirection(Vector3.right) * 0.075f * f, Space.World);
             }
 
-			if (Input.GetKey(KeyCode.UpArrow))
+            if (Input.GetKey(KeyCode.UpArrow))
             {
-				cam.Translate(cam.transform.TransformDirection(Vector3.up) * 0.075f * f, Space.World);
+                cam.Translate(cam.transform.TransformDirection(Vector3.up) * 0.075f * f, Space.World);
             }
-			else if (Input.GetKey(KeyCode.DownArrow))
+            else if (Input.GetKey(KeyCode.DownArrow))
             {
-				cam.Translate(cam.transform.TransformDirection(Vector3.down) * 0.075f * f, Space.World);
+                cam.Translate(cam.transform.TransformDirection(Vector3.down) * 0.075f * f, Space.World);
             }
         }
 
@@ -158,11 +158,11 @@ namespace RobotAnts
 
         private Vector3 CalculateCameraPosition()
         {
-			if (!freeze)
-			{
-				pos = robots[index].GetCamTarget().position;
-			}
-			return pos + cam.rotation * (Vector3.back * distance) + Vector3.up * yOffset;
+            if (!freeze)
+            {
+                pos = robots[index].GetCamTarget().position;
+            }
+            return pos + cam.rotation * (Vector3.back * distance) + Vector3.up * yOffset;
         }
     }
 }

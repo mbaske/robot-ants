@@ -6,10 +6,10 @@ namespace RobotAnts
     {
         public Limb[] limbs = new Limb[4];
         public Foot foot;
-		public Socket socket;
+        public Socket socket;
    
         // TODO calculate these values based on connected limb angles
-		private float[] relativeJointAngleMinimum =
+        private float[] relativeJointAngleMinimum =
         {
             -40f,
             -40f,
@@ -19,24 +19,24 @@ namespace RobotAnts
 
         internal void Initialize()
         {
-			socket.Initialize();
-			for (int i = 0; i < 4; i++)
+            socket.Initialize();
+            for (int i = 0; i < 4; i++)
                 limbs[i].Initialize(relativeJointAngleMinimum[i]);
             foot.Initialize();
         }
       
-		internal void SavePosition()
+        internal void SavePosition()
         {
-			socket.SavePosition();
-			for (int i = 0; i < 4; i++)
-				limbs[i].SavePosition();
+            socket.SavePosition();
+            for (int i = 0; i < 4; i++)
+                limbs[i].SavePosition();
         }
 
         internal void ResetPosition()
         {
-			socket.ResetPosition();
-			for (int i = 0; i < 4; i++)
-				limbs[i].ResetPosition();
+            socket.ResetPosition();
+            for (int i = 0; i < 4; i++)
+                limbs[i].ResetPosition();
         }
     }
 }

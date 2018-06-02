@@ -4,14 +4,14 @@ namespace RobotAnts
 {
     public class TrailBlob : MonoBehaviour
     {
-		// Seconds
+        // Seconds
         public int maxLifeSpan = 40;
 
-		private float energy;
+        private float energy;
         private Material mat;
         private Color col;
       
-		/// <summary>
+        /// <summary>
         /// Sets the blob's initial energy.
         /// </summary>
         /// <param name="e">A float value between 0 and +1.</param>
@@ -21,13 +21,13 @@ namespace RobotAnts
             DisplayEnergy();
         }
         
-		/// <summary>
+        /// <summary>
         /// Returns the blob's energy.
         /// </summary>
         /// <returns>
         /// <c>Float</c> - value between 0 and +1.
         /// </returns>
-		internal float GetEnergy()
+        internal float GetEnergy()
         {
             return energy / maxLifeSpan;
         }
@@ -38,11 +38,11 @@ namespace RobotAnts
             mat.color = col;
         }
         
-		private void Awake()
-		{
+        private void Awake()
+        {
             mat = GetComponent<Renderer>().material;
             col = new Color(0f, 1f, 0.5f, 1f);
-		}
+        }
 
         private void Update()
         {

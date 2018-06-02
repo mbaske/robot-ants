@@ -2,10 +2,10 @@
 
 namespace RobotAnts
 {
-	/// <summary>
+    /// <summary>
     /// There is no exclusive gameobject associated with the Foot class.
-	/// It shares its rigidbody with the lowest limb L4.
-	/// The foot's position is a point "tip" relative to L4's position.
+    /// It shares its rigidbody with the lowest limb L4.
+    /// The foot's position is a point "tip" relative to L4's position.
     /// </summary>
     public class Foot : MonoBehaviour
     {
@@ -18,23 +18,23 @@ namespace RobotAnts
         [Range(0.0f, 500.0f)]
         public float lockStrengthMax = 400f;
       
-		private const float CONTACT_THRESHOLD = 0.001f;
+        private const float CONTACT_THRESHOLD = 0.001f;
 
-		private float distanceToGround;
+        private float distanceToGround;
         private bool contact = false;
         private Vector3 lockPos;
         private Vector3 tip;
         private Rigidbody rb;
 
-		/// <summary>
+        /// <summary>
         /// Returns the foot's distance to the ground.
         /// </summary>
         /// <returns>
-		/// <c>Float</c> - value between -1 and +1.
+        /// <c>Float</c> - value between -1 and +1.
         /// </returns>
-		internal float GetDistanceToGround()
+        internal float GetDistanceToGround()
         {
-			return Mathf.Clamp(distanceToGround, -1f, 1f);
+            return Mathf.Clamp(distanceToGround, -1f, 1f);
         }
               
         internal void Initialize()
@@ -43,35 +43,35 @@ namespace RobotAnts
             tip = new Vector3(0.2f, 0f, 0f);
         }
       
-		/// <summary>
+        /// <summary>
         /// Updates the physics. 
         /// Applies a directional "lock" force to keep the foot in place.
-		/// Which gives the robot a stronger grip on steep terrain compared
-		/// to using gravity + colliders + friction.
+        /// Which gives the robot a stronger grip on steep terrain compared
+        /// to using gravity + colliders + friction.
         /// </summary>
         internal void StepUpdate()
         {
             Vector3 pos = transform.TransformPoint(tip);
             Vector3 ground = pos.GroundPos();
             
-			if (ground.IsValid())
+            if (ground.IsValid())
             {
-				distanceToGround = pos.y - ground.y;
+                distanceToGround = pos.y - ground.y;
 
-				if (distanceToGround > CONTACT_THRESHOLD)
-				{
-					contact = false;
-				}
-				else if (!contact)
-				{
-					contact = true;
-					lockPos = ground;
-				}
+                if (distanceToGround > CONTACT_THRESHOLD)
+                {
+                    contact = false;
+                }
+                else if (!contact)
+                {
+                    contact = true;
+                    lockPos = ground;
+                }
             }
             else
             {
                 contact = false;
-				distanceToGround = -1;
+                distanceToGround = -1;
             }
          
             if (contact)

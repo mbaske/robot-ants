@@ -17,8 +17,8 @@ namespace RobotAnts
             if (Input.GetMouseButtonDown(0))
             {
                 Vector3 pos = cam.ScreenPointToRay(Input.mousePosition).GroundPos();
-				if (pos.IsValid())
-					robot.SetTargetPosition(pos);
+                if (pos.IsValid())
+                    robot.SetTargetPosition(pos);
             }
         }
     }
