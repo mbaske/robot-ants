@@ -1,4 +1,4 @@
-## Unity Robot Ants - [Video](https://www.youtube.com/watch?v=rm2wICg2A5A) 
+## Unity Robot Ants 
 
 <img src="images/ants.png" align="middle" width="1280"/>
 
