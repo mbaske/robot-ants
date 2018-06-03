@@ -281,11 +281,10 @@ namespace RobotAnts
 
         private void ScanElevation()
         {
-            Vector3 pos;
             float angle = body.GetOrientation() * Mathf.PI;
             for (int i = 0; i < N_SCAN_POINTS; i++)
             {
-                pos = position;
+                Vector3 pos = position;
                 pos = new Vector3(pos.x + searchRadius * Mathf.Cos(angle + i * degScan * Mathf.Deg2Rad),
                                   pos.y,
                                   pos.z + searchRadius * Mathf.Sin(angle + i * degScan * Mathf.Deg2Rad));

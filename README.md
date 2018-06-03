@@ -1,4 +1,4 @@
-## Unity Robot Ants - [Video](https://youtu.be/iUOOoM0NLlo)
+## Unity Robot Ants (Reinforcement Learning) - [Video](https://youtu.be/iUOOoM0NLlo)
 
 <img src="images/ants.png" align="middle" width="1280"/>
 
@@ -27,7 +27,7 @@ Achieving a good compromise between exploration and recharging depends on balanc
 * energy level
 * distance covered
 
-The agent's energy ranges from +1 (fully charged) to -1 (depleted). Being out of juice actually doesn't affect the robot's ability to move around. However, it only lays down its trail as long as that value is positive. Recent agent positions are stored as waypoints. Distance covered is represented as the summed distances between n consecutive waypoints divided by n-1 times the search radius - which always gives us a value between 0 and 1.
+The agent's energy ranges from +1 (fully charged) to -1 (depleted). Being out of juice actually doesn't affect the robot's ability to move around. However, it only lays down its trail as long as that value is positive. Recent agent positions are stored as waypoints. Distance covered is represented as the cumulative distance between n consecutive waypoints divided by n-1 times the search radius - which always gives us a value between 0 and 1.
 
 A fixed penalty is assigned in case the agent times out or resets. Which usually happens when it struggles to climb over an obstacle, falls over or walks off the terrain.
 
@@ -52,7 +52,7 @@ The continuous **action space** consists of target rotation angles for each join
 To give the agent some feedback after every step, we set proportional rewards for its
 
 * movement towards (positive) or away from (negative) the target
-* distance from the target - a frequent penalty compelling the robot to reach its goal as fast as possible
+* distance from the target - a small penalty compelling the robot to reach its goal as fast as possible
 
 **First Steps**
 
