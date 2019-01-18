@@ -1,4 +1,4 @@
-## Unity Robot Ants (Reinforcement Learning)
+## Unity Robot Ants (Reinforcement Learning) - [Video](https://www.youtube.com/watch?v=EwB8XXCYOsc)
 
 <img src="images/banner.png" align="middle" width="1920"/>
 
