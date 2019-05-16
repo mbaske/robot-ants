@@ -1,0 +1,3054 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2019-05-16T11:28:00.001+02:00
+  initializedAtString: 2019-05-16T11:07:30.435+02:00
+  log:
+  - commitID: 8918d975d959dd7e3e1afb3bb4f8c95204007748
+    mergeA: 
+    mergeB: 
+    authorName: mbaske
+    authorEmail: mbaske@mailbox.org
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update README.md
+    description: Update README.md
+    timeString: 2019-04-30T10:35:17.000+02:00
+    commitTimeString: 2019-04-30T10:35:17.000+02:00
+    changes:
+    - path: README.md
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 02d1a9268396b9aeddea3e537dd496b8cd4b587f
+    mergeA: 
+    mergeB: 
+    authorName: Mathias Baske
+    authorEmail: hello@baske.com
+    commitEmail: hello@baske.com
+    commitName: Mathias Baske
+    summary: Updated License
+    description: "Updated License\r\n"
+    timeString: 2019-03-24T08:52:36.000+01:00
+    commitTimeString: 2019-03-24T08:52:36.000+01:00
+    changes:
+    - path: LICENSE_Unity
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\LICENSE_Unity
+      projectPath: ..\LICENSE_Unity
+      originalPath: LICENSE
+      status: 6
+      staged: 0
+  - commitID: a51edf27dd2c7ea96901950ef24a0f79ae535759
+    mergeA: 
+    mergeB: 
+    authorName: Mathias Baske
+    authorEmail: hello@baske.com
+    commitEmail: hello@baske.com
+    commitName: Mathias Baske
+    summary: Updated readme
+    description: "Updated readme\r\n"
+    timeString: 2019-03-05T14:54:03.000+01:00
+    commitTimeString: 2019-03-05T14:54:03.000+01:00
+    changes:
+    - path: README.md
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 29b02eee35f79f670a8b4b17e66ee0a2a0d7ef28
+    mergeA: 
+    mergeB: 
+    authorName: Mathias Baske
+    authorEmail: hello@baske.com
+    commitEmail: hello@baske.com
+    commitName: Mathias Baske
+    summary: Added video link
+    description: "Added video link\r\n"
+    timeString: 2019-01-18T13:28:42.000+01:00
+    commitTimeString: 2019-01-18T13:28:42.000+01:00
+    changes:
+    - path: README.md
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 98d296b488f227f6f8c66d9ef4652a9e10facf1c
+    mergeA: 
+    mergeB: 
+    authorName: mbaske
+    authorEmail: mbaske@mailbox.org
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Updated Readme
+    description: Updated Readme
+    timeString: 2019-01-18T11:59:57.000+01:00
+    commitTimeString: 2019-01-18T11:59:57.000+01:00
+    changes:
+    - path: README.md
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 6aaddbe3242a481694f21f7dec95100ad2645b7f
+    mergeA: 
+    mergeB: 
+    authorName: Mathias Baske
+    authorEmail: hello@baske.com
+    commitEmail: hello@baske.com
+    commitName: Mathias Baske
+    summary: Updated Readme
+    description: "Updated Readme\r\n"
+    timeString: 2019-01-18T11:06:06.000+01:00
+    commitTimeString: 2019-01-18T11:06:06.000+01:00
+    changes:
+    - path: README.md
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 90389bfe3d605837c8dda08fe19c04fa33aaa7c6
+    mergeA: 
+    mergeB: 
+    authorName: Mathias Baske
+    authorEmail: hello@baske.com
+    commitEmail: hello@baske.com
+    commitName: Mathias Baske
+    summary: 
+    description: "\r\n\r\nAdded License"
+    timeString: 2019-01-18T10:40:06.000+01:00
+    commitTimeString: 2019-01-18T10:40:06.000+01:00
+    changes:
+    - path: LICENSE
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\LICENSE
+      projectPath: ..\LICENSE
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 7f84ab619fc99619ccb62beb20c316d33d4ed9c1
+    mergeA: 
+    mergeB: 
+    authorName: Mathias Baske
+    authorEmail: hello@baske.com
+    commitEmail: hello@baske.com
+    commitName: Mathias Baske
+    summary: 
+    description: "\r\n\r\nRedesign, ml-agents v0.6"
+    timeString: 2019-01-18T10:33:09.000+01:00
+    commitTimeString: 2019-01-18T10:33:09.000+01:00
+    changes:
+    - path: Assets\ML-Agents.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents.meta
+      projectPath: ..\Assets\ML-Agents.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Editor\AgentEditor.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\AgentEditor.cs
+      projectPath: ..\Assets\ML-Agents\Editor\AgentEditor.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Editor\AgentEditor.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\AgentEditor.cs.meta
+      projectPath: ..\Assets\ML-Agents\Editor\AgentEditor.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Editor\BrainEditor.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\BrainEditor.cs
+      projectPath: ..\Assets\ML-Agents\Editor\BrainEditor.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Editor\BrainEditor.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\BrainEditor.cs.meta
+      projectPath: ..\Assets\ML-Agents\Editor\BrainEditor.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Editor\MLAgentsEditModeTest.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\MLAgentsEditModeTest.cs
+      projectPath: ..\Assets\ML-Agents\Editor\MLAgentsEditModeTest.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Editor\MLAgentsEditModeTest.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\MLAgentsEditModeTest.cs.meta
+      projectPath: ..\Assets\ML-Agents\Editor\MLAgentsEditModeTest.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Editor\ResetParameterDrawer.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\ResetParameterDrawer.cs
+      projectPath: ..\Assets\ML-Agents\Editor\ResetParameterDrawer.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Editor\ResetParameterDrawer.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\ResetParameterDrawer.cs.meta
+      projectPath: ..\Assets\ML-Agents\Editor\ResetParameterDrawer.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Plugins.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins.meta
+      projectPath: ..\Assets\ML-Agents\Plugins.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Plugins\JSON\Newtonsoft.Json.dll
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins\JSON\Newtonsoft.Json.dll
+      projectPath: ..\Assets\ML-Agents\Plugins\JSON\Newtonsoft.Json.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Plugins\JSON\Newtonsoft.Json.dll.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins\JSON\Newtonsoft.Json.dll.meta
+      projectPath: ..\Assets\ML-Agents\Plugins\JSON\Newtonsoft.Json.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Plugins\System.Numerics.dll
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins\System.Numerics.dll
+      projectPath: ..\Assets\ML-Agents\Plugins\System.Numerics.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Plugins\System.Numerics.dll.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins\System.Numerics.dll.meta
+      projectPath: ..\Assets\ML-Agents\Plugins\System.Numerics.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Plugins\System.ValueTuple.dll
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins\System.ValueTuple.dll
+      projectPath: ..\Assets\ML-Agents\Plugins\System.ValueTuple.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Plugins\System.ValueTuple.dll.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins\System.ValueTuple.dll.meta
+      projectPath: ..\Assets\ML-Agents\Plugins\System.ValueTuple.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Academy.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Academy.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\Academy.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Academy.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Academy.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\Academy.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Agent.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Agent.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\Agent.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Agent.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Agent.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\Agent.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\BCTeacherHelper.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\BCTeacherHelper.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\BCTeacherHelper.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Brain.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Brain.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\Brain.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Brain.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Brain.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\Brain.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Communicator.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Communicator.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\Communicator.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Communicator.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Communicator.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\Communicator.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrain.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrain.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrain.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrain.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrain.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrain.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainExternal.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainExternal.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainExternal.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainExternal.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainExternal.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainExternal.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainHeuristic.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainHeuristic.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainHeuristic.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainHeuristic.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainHeuristic.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainHeuristic.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainInternal.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainInternal.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainInternal.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainInternal.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainInternal.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainInternal.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainPlayer.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainPlayer.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainPlayer.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainPlayer.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainPlayer.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainPlayer.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Decision.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Decision.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\Decision.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Decision.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Decision.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\Decision.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\ExternalCommunicator.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\ExternalCommunicator.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\ExternalCommunicator.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\ExternalCommunicator.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\ExternalCommunicator.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\ExternalCommunicator.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Monitor.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Monitor.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\Monitor.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Monitor.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Monitor.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\Monitor.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\ResetParameters.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\ResetParameters.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\ResetParameters.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\ResetParameters.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\ResetParameters.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\ResetParameters.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\UnityAgentsException.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\UnityAgentsException.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\UnityAgentsException.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\UnityAgentsException.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\UnityAgentsException.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\UnityAgentsException.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Main.unity
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Main.unity
+      projectPath: ..\Assets\Robot-Ants\Main.unity
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Misc Items.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Misc Items.meta
+      projectPath: ..\Assets\Robot-Ants\Misc Items.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Misc Items\Trail.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Misc Items\Trail.mat
+      projectPath: ..\Assets\Robot-Ants\Misc Items\Trail.mat
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Robot.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot.meta
+      projectPath: ..\Assets\Robot-Ants\Robot.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Body.prefab
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Body.prefab
+      projectPath: ..\Assets\Robot-Ants\Robot\Body.prefab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Leg.prefab
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Leg.prefab
+      projectPath: ..\Assets\Robot-Ants\Robot\Leg.prefab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Materials\Black.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Materials\Black.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Robot\Materials\Black.mat.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Materials\Gray2.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Materials\Gray2.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Robot\Materials\Gray2.mat.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Materials\Gray3.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Materials\Gray3.mat
+      projectPath: ..\Assets\Robot-Ants\Robot\Materials\Gray3.mat
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Materials\Gray3.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Materials\Gray3.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Robot\Materials\Gray3.mat.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\RobotAnt.prefab
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\RobotAnt.prefab
+      projectPath: ..\Assets\Robot-Ants\Robot\RobotAnt.prefab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\PowerUp.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\PowerUp.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\PowerUp.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\PowerUp.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\PowerUp.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\PowerUp.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\AgentExplore.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\AgentExplore.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\AgentExplore.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\AgentExplore.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\AgentExplore.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\AgentExplore.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\AgentWalk.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\AgentWalk.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\AgentWalk.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\Oscillator.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\Oscillator.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\Oscillator.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\Oscillator.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\Oscillator.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\Oscillator.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\RobotAcademy.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\RobotAcademy.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\RobotAcademy.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\RobotAcademy.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\RobotAcademy.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\RobotAcademy.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Body.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Body.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Body.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Body.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Body.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Body.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Foot.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Foot.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Foot.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Foot.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Foot.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Foot.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Leg.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Leg.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Leg.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Limb.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Limb.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Limb.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Limb.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Limb.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Limb.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Robot.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Robot.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Robot.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Socket.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Socket.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Socket.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Socket.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Socket.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Socket.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\TrailBlob.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\TrailBlob.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\TrailBlob.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\TrailBlob.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\TrailBlob.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\TrailBlob.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\CamControls.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\CamControls.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\CamControls.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\MousePos.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\MousePos.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\MousePos.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\MousePos.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\MousePos.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\MousePos.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Stats.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Stats.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Stats.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Stats.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Stats.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Stats.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\VectorUtil.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\VectorUtil.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\VectorUtil.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\VectorUtil.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\VectorUtil.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\VectorUtil.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\TFModels.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\TFModels.meta
+      projectPath: ..\Assets\Robot-Ants\TFModels.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\TFModels\RobotAnts_RobotAnts.bytes
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\TFModels\RobotAnts_RobotAnts.bytes
+      projectPath: ..\Assets\Robot-Ants\TFModels\RobotAnts_RobotAnts.bytes
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1.mat
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1.mat
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1.mat.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14.mat
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14.mat
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14.mat.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Ambient_Occlusion.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Ambient_Occlusion.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Ambient_Occlusion.tga
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Ambient_Occlusion.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Ambient_Occlusion.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Ambient_Occlusion.tga.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Diffuse.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Diffuse.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Diffuse.tga
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Diffuse.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Diffuse.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Diffuse.tga.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Height.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Height.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Height.tga
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Height.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Height.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Height.tga.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Metallic.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Metallic.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Metallic.tga
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Metallic.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Metallic.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Metallic.tga.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Normal.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Normal.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Normal.tga
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Normal.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Normal.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Normal.tga.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Ambient_Occlusion.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Ambient_Occlusion.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Ambient_Occlusion.tga
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Ambient_Occlusion.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Ambient_Occlusion.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Ambient_Occlusion.tga.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Diffuse.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Diffuse.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Diffuse.tga
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Diffuse.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Diffuse.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Diffuse.tga.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Height.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Height.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Height.tga
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Height.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Height.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Height.tga.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Metallic.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Metallic.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Metallic.tga
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Metallic.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Metallic.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Metallic.tga.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Normal.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Normal.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Normal.tga
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Normal.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Normal.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Normal.tga.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Environment_1.fbx
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Environment_1.fbx
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Environment_1.fbx
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Environment_1.prefab
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Environment_1.prefab
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Environment_1.prefab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Environment_1.prefab.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Environment_1.prefab.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Environment_1.prefab.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Mounting_1.fbx
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Mounting_1.fbx
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Mounting_1.fbx
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Mounting_1.fbx.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Mounting_1.fbx.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Mounting_1.fbx.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Mounting_2.fbx
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Mounting_2.fbx
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Mounting_2.fbx
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Mounting_2.fbx.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Mounting_2.fbx.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Mounting_2.fbx.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\PrototypeCheckerAlbedo.png
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\PrototypeCheckerAlbedo.png
+      projectPath: ..\Assets\Robot-Ants\Terrain\PrototypeCheckerAlbedo.png
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Skybox.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Skybox.mat
+      projectPath: ..\Assets\Robot-Ants\Terrain\Skybox.mat
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Skybox.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Skybox.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Skybox.mat.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: CamControls.md
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\CamControls.md
+      projectPath: ..\CamControls.md
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: LICENSE
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\LICENSE
+      projectPath: ..\LICENSE
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\PresetManager.asset
+      projectPath: ..\ProjectSettings\PresetManager.asset
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\ProjectVersion.txt
+      projectPath: ..\ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: README.md
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: UnityEnv\Assets\Ants.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants.meta
+      projectPath: Assets\Ants.meta
+      originalPath: Assets\ML-Agents\Editor.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Brains.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Brains.meta
+      projectPath: Assets\Ants\Brains.meta
+      originalPath: Assets\Robot-Ants.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Brains\SearchLearning.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Brains\SearchLearning.asset
+      projectPath: Assets\Ants\Brains\SearchLearning.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Brains\SearchLearning.asset.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Brains\SearchLearning.asset.meta
+      projectPath: Assets\Ants\Brains\SearchLearning.asset.meta
+      originalPath: Assets\Robot-Ants\Robot\Body.prefab.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Brains\SearchLearning.bytes
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Brains\SearchLearning.bytes
+      projectPath: Assets\Ants\Brains\SearchLearning.bytes
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Brains\SearchLearning.bytes.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Brains\SearchLearning.bytes.meta
+      projectPath: Assets\Ants\Brains\SearchLearning.bytes.meta
+      originalPath: Assets\Robot-Ants\TFModels\RobotAnts_RobotAnts.bytes.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Brains\WalkLearning.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Brains\WalkLearning.asset
+      projectPath: Assets\Ants\Brains\WalkLearning.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Brains\WalkLearning.asset.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Brains\WalkLearning.asset.meta
+      projectPath: Assets\Ants\Brains\WalkLearning.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Brains\WalkLearning.bytes
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Brains\WalkLearning.bytes
+      projectPath: Assets\Ants\Brains\WalkLearning.bytes
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Brains\WalkLearning.bytes.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Brains\WalkLearning.bytes.meta
+      projectPath: Assets\Ants\Brains\WalkLearning.bytes.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Materials.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Materials.meta
+      projectPath: Assets\Ants\Materials.meta
+      originalPath: Assets\Robot-Ants\Robot\Materials.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Materials\Black.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Materials\Black.mat
+      projectPath: Assets\Ants\Materials\Black.mat
+      originalPath: Assets\Robot-Ants\Robot\Materials\Black.mat
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Materials\Black.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Materials\Black.mat.meta
+      projectPath: Assets\Ants\Materials\Black.mat.meta
+      originalPath: Assets\Robot-Ants\Terrain\Materials\PrototypeCheckerAlbedo.mat.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Materials\Gray.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Materials\Gray.mat
+      projectPath: Assets\Ants\Materials\Gray.mat
+      originalPath: Assets\Robot-Ants\Robot\Materials\Gray2.mat
+      status: 6
+      staged: 0
+    - path: "Items\\Trail.mat.meta\tUnityEnv\\Assets\\Ants\\Materials\\Gray.mat.meta"
+      fullPath: "C:\\Users\\Enc0de\\ml-agents\\env\\robot-ants\\Items\\Trail.mat.meta\tUnityEnv\\Assets\\Ants\\Materials\\Gray.mat.meta"
+      projectPath: "..\\Items\\Trail.mat.meta\tUnityEnv\\Assets\\Ants\\Materials\\Gray.mat.meta"
+      originalPath: Assets\Robot-Ants\Misc
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Materials\LightGridFloorSquare.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Materials\LightGridFloorSquare.mat
+      projectPath: Assets\Ants\Materials\LightGridFloorSquare.mat
+      originalPath: Assets\Robot-Ants\Terrain\Materials\PrototypeCheckerAlbedo.mat
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Materials\LightGridFloorSquare.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Materials\LightGridFloorSquare.mat.meta
+      projectPath: Assets\Ants\Materials\LightGridFloorSquare.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Materials\MaxFriction.physicMaterial
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Materials\MaxFriction.physicMaterial
+      projectPath: Assets\Ants\Materials\MaxFriction.physicMaterial
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Materials\MaxFriction.physicMaterial.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Materials\MaxFriction.physicMaterial.meta
+      projectPath: Assets\Ants\Materials\MaxFriction.physicMaterial.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Items\\PowerUp.mat\tUnityEnv\\Assets\\Ants\\Materials\\PowerUp.mat"
+      fullPath: "C:\\Users\\Enc0de\\ml-agents\\env\\robot-ants\\Items\\PowerUp.mat\tUnityEnv\\Assets\\Ants\\Materials\\PowerUp.mat"
+      projectPath: "..\\Items\\PowerUp.mat\tUnityEnv\\Assets\\Ants\\Materials\\PowerUp.mat"
+      originalPath: Assets\Robot-Ants\Misc
+      status: 6
+      staged: 0
+    - path: "Items\\PowerUp.mat.meta\tUnityEnv\\Assets\\Ants\\Materials\\PowerUp.mat.meta"
+      fullPath: "C:\\Users\\Enc0de\\ml-agents\\env\\robot-ants\\Items\\PowerUp.mat.meta\tUnityEnv\\Assets\\Ants\\Materials\\PowerUp.mat.meta"
+      projectPath: "..\\Items\\PowerUp.mat.meta\tUnityEnv\\Assets\\Ants\\Materials\\PowerUp.mat.meta"
+      originalPath: Assets\Robot-Ants\Misc
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Materials\Wall.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Materials\Wall.mat
+      projectPath: Assets\Ants\Materials\Wall.mat
+      originalPath: Assets\Robot-Ants\Robot\Materials\Gray1.mat
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Materials\Wall.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Materials\Wall.mat.meta
+      projectPath: Assets\Ants\Materials\Wall.mat.meta
+      originalPath: Assets\Robot-Ants\Robot\Materials\Gray1.mat.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Materials\gridTextureWhite.png
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Materials\gridTextureWhite.png
+      projectPath: Assets\Ants\Materials\gridTextureWhite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Materials\gridTextureWhite.png.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Materials\gridTextureWhite.png.meta
+      projectPath: Assets\Ants\Materials\gridTextureWhite.png.meta
+      originalPath: Assets\Robot-Ants\Terrain\PrototypeCheckerAlbedo.png.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs.meta
+      projectPath: Assets\Ants\Prefabs.meta
+      originalPath: Assets\Robot-Ants\Terrain\Prefabs.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Ant.prefab
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Ant.prefab
+      projectPath: Assets\Ants\Prefabs\Ant.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Ant.prefab.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Ant.prefab.meta
+      projectPath: Assets\Ants\Prefabs\Ant.prefab.meta
+      originalPath: Assets\Robot-Ants\Robot\Leg.prefab.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models.meta
+      projectPath: Assets\Ants\Prefabs\Models.meta
+      originalPath: Assets\ML-Agents\Plugins\JSON.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\ant.fbx
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\ant.fbx
+      projectPath: Assets\Ants\Prefabs\Models\ant.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\ant.fbx.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\ant.fbx.meta
+      projectPath: Assets\Ants\Prefabs\Models\ant.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\leg_f_a_mirror.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\leg_f_a_mirror.asset
+      projectPath: Assets\Ants\Prefabs\Models\leg_f_a_mirror.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\leg_f_a_mirror.asset.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\leg_f_a_mirror.asset.meta
+      projectPath: Assets\Ants\Prefabs\Models\leg_f_a_mirror.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\leg_f_b_mirror.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\leg_f_b_mirror.asset
+      projectPath: Assets\Ants\Prefabs\Models\leg_f_b_mirror.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\leg_f_b_mirror.asset.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\leg_f_b_mirror.asset.meta
+      projectPath: Assets\Ants\Prefabs\Models\leg_f_b_mirror.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\leg_m_a_mirror.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\leg_m_a_mirror.asset
+      projectPath: Assets\Ants\Prefabs\Models\leg_m_a_mirror.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\leg_m_a_mirror.asset.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\leg_m_a_mirror.asset.meta
+      projectPath: Assets\Ants\Prefabs\Models\leg_m_a_mirror.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\leg_m_b_mirror.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\leg_m_b_mirror.asset
+      projectPath: Assets\Ants\Prefabs\Models\leg_m_b_mirror.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\leg_m_b_mirror.asset.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\leg_m_b_mirror.asset.meta
+      projectPath: Assets\Ants\Prefabs\Models\leg_m_b_mirror.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\leg_r_a_mirror.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\leg_r_a_mirror.asset
+      projectPath: Assets\Ants\Prefabs\Models\leg_r_a_mirror.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\leg_r_a_mirror.asset.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\leg_r_a_mirror.asset.meta
+      projectPath: Assets\Ants\Prefabs\Models\leg_r_a_mirror.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\leg_r_b_mirror.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\leg_r_b_mirror.asset
+      projectPath: Assets\Ants\Prefabs\Models\leg_r_b_mirror.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\leg_r_b_mirror.asset.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\leg_r_b_mirror.asset.meta
+      projectPath: Assets\Ants\Prefabs\Models\leg_r_b_mirror.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\sandbox.fbx
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\sandbox.fbx
+      projectPath: Assets\Ants\Prefabs\Models\sandbox.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Models\sandbox.fbx.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Models\sandbox.fbx.meta
+      projectPath: Assets\Ants\Prefabs\Models\sandbox.fbx.meta
+      originalPath: Assets\Robot-Ants\Terrain\Prefabs\Environment_1.fbx.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Sandbox.prefab
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Sandbox.prefab
+      projectPath: Assets\Ants\Prefabs\Sandbox.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Prefabs\Sandbox.prefab.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Prefabs\Sandbox.prefab.meta
+      projectPath: Assets\Ants\Prefabs\Sandbox.prefab.meta
+      originalPath: Assets\Robot-Ants\Robot\RobotAnt.prefab.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\RobotAnts.unity
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\RobotAnts.unity
+      projectPath: Assets\Ants\RobotAnts.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\RobotAnts.unity.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\RobotAnts.unity.meta
+      projectPath: Assets\Ants\RobotAnts.unity.meta
+      originalPath: Assets\Robot-Ants\Main.unity.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts.meta
+      projectPath: Assets\Ants\Scripts.meta
+      originalPath: Assets\ML-Agents\Scripts.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Agents.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Agents.meta
+      projectPath: Assets\Ants\Scripts\Agents.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Agents\Ant.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Agents\Ant.cs
+      projectPath: Assets\Ants\Scripts\Agents\Ant.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Agents\Ant.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Agents\Ant.cs.meta
+      projectPath: Assets\Ants\Scripts\Agents\Ant.cs.meta
+      originalPath: Assets\ML-Agents\Scripts\BCTeacherHelper.cs.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Agents\AntAcademy.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Agents\AntAcademy.cs
+      projectPath: Assets\Ants\Scripts\Agents\AntAcademy.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Agents\AntAcademy.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Agents\AntAcademy.cs.meta
+      projectPath: Assets\Ants\Scripts\Agents\AntAcademy.cs.meta
+      originalPath: Assets\Robot-Ants\Scripts\Robot\Robot.cs.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Agents\GaitOsc.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Agents\GaitOsc.cs
+      projectPath: Assets\Ants\Scripts\Agents\GaitOsc.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Agents\GaitOsc.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Agents\GaitOsc.cs.meta
+      projectPath: Assets\Ants\Scripts\Agents\GaitOsc.cs.meta
+      originalPath: Assets\Robot-Ants\Scripts\Util\CamControls.cs.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Agents\Leg.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Agents\Leg.cs
+      projectPath: Assets\Ants\Scripts\Agents\Leg.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Agents\Leg.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Agents\Leg.cs.meta
+      projectPath: Assets\Ants\Scripts\Agents\Leg.cs.meta
+      originalPath: Assets\Robot-Ants\Scripts\Robot\Leg.cs.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Agents\SearcherAgent.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Agents\SearcherAgent.cs
+      projectPath: Assets\Ants\Scripts\Agents\SearcherAgent.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Agents\SearcherAgent.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Agents\SearcherAgent.cs.meta
+      projectPath: Assets\Ants\Scripts\Agents\SearcherAgent.cs.meta
+      originalPath: Assets\Robot-Ants\Scripts\RL\AgentWalk.cs.meta
+      status: 6
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Agents\WalkerAgent.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Agents\WalkerAgent.cs
+      projectPath: Assets\Ants\Scripts\Agents\WalkerAgent.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Agents\WalkerAgent.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Agents\WalkerAgent.cs.meta
+      projectPath: Assets\Ants\Scripts\Agents\WalkerAgent.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Cam.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Cam.meta
+      projectPath: Assets\Ants\Scripts\Cam.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Cam\CamTarget.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Cam\CamTarget.cs
+      projectPath: Assets\Ants\Scripts\Cam\CamTarget.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Cam\CamTarget.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Cam\CamTarget.cs.meta
+      projectPath: Assets\Ants\Scripts\Cam\CamTarget.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Cam\MouseControl.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Cam\MouseControl.cs
+      projectPath: Assets\Ants\Scripts\Cam\MouseControl.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Cam\MouseControl.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Cam\MouseControl.cs.meta
+      projectPath: Assets\Ants\Scripts\Cam\MouseControl.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Cam\Orbit.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Cam\Orbit.cs
+      projectPath: Assets\Ants\Scripts\Cam\Orbit.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Cam\Orbit.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Cam\Orbit.cs.meta
+      projectPath: Assets\Ants\Scripts\Cam\Orbit.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Misc.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Misc.meta
+      projectPath: Assets\Ants\Scripts\Misc.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Misc\InspectorButton.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Misc\InspectorButton.cs
+      projectPath: Assets\Ants\Scripts\Misc\InspectorButton.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Misc\InspectorButton.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Misc\InspectorButton.cs.meta
+      projectPath: Assets\Ants\Scripts\Misc\InspectorButton.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Misc\Layers.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Misc\Layers.cs
+      projectPath: Assets\Ants\Scripts\Misc\Layers.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Misc\Layers.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Misc\Layers.cs.meta
+      projectPath: Assets\Ants\Scripts\Misc\Layers.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Misc\Resetter.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Misc\Resetter.cs
+      projectPath: Assets\Ants\Scripts\Misc\Resetter.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Misc\Resetter.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Misc\Resetter.cs.meta
+      projectPath: Assets\Ants\Scripts\Misc\Resetter.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Misc\Sandbox.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Misc\Sandbox.cs
+      projectPath: Assets\Ants\Scripts\Misc\Sandbox.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Misc\Sandbox.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Misc\Sandbox.cs.meta
+      projectPath: Assets\Ants\Scripts\Misc\Sandbox.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Misc\Trainer.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Misc\Trainer.cs
+      projectPath: Assets\Ants\Scripts\Misc\Trainer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Misc\Trainer.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Misc\Trainer.cs.meta
+      projectPath: Assets\Ants\Scripts\Misc\Trainer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Misc\Util.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Misc\Util.cs
+      projectPath: Assets\Ants\Scripts\Misc\Util.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Misc\Util.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Misc\Util.cs.meta
+      projectPath: Assets\Ants\Scripts\Misc\Util.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails.meta
+      projectPath: Assets\Ants\Scripts\Trails.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails\ITrailOwner.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails\ITrailOwner.cs
+      projectPath: Assets\Ants\Scripts\Trails\ITrailOwner.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails\ITrailOwner.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails\ITrailOwner.cs.meta
+      projectPath: Assets\Ants\Scripts\Trails\ITrailOwner.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails\Point.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails\Point.cs
+      projectPath: Assets\Ants\Scripts\Trails\Point.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails\Point.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails\Point.cs.meta
+      projectPath: Assets\Ants\Scripts\Trails\Point.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails\PowerUpLocation.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails\PowerUpLocation.cs
+      projectPath: Assets\Ants\Scripts\Trails\PowerUpLocation.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails\PowerUpLocation.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails\PowerUpLocation.cs.meta
+      projectPath: Assets\Ants\Scripts\Trails\PowerUpLocation.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails\PowerUps.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails\PowerUps.cs
+      projectPath: Assets\Ants\Scripts\Trails\PowerUps.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails\PowerUps.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails\PowerUps.cs.meta
+      projectPath: Assets\Ants\Scripts\Trails\PowerUps.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails\Trail.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails\Trail.cs
+      projectPath: Assets\Ants\Scripts\Trails\Trail.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails\Trail.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails\Trail.cs.meta
+      projectPath: Assets\Ants\Scripts\Trails\Trail.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails\TrailManager.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails\TrailManager.cs
+      projectPath: Assets\Ants\Scripts\Trails\TrailManager.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails\TrailManager.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails\TrailManager.cs.meta
+      projectPath: Assets\Ants\Scripts\Trails\TrailManager.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails\TrailPoint.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails\TrailPoint.cs
+      projectPath: Assets\Ants\Scripts\Trails\TrailPoint.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\Assets\Ants\Scripts\Trails\TrailPoint.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\Assets\Ants\Scripts\Trails\TrailPoint.cs.meta
+      projectPath: Assets\Ants\Scripts\Trails\TrailPoint.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: ProjectSettings\AudioManager.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: ProjectSettings\ClusterInputManager.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: ProjectSettings\DynamicsManager.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: ProjectSettings\EditorBuildSettings.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: ProjectSettings\EditorSettings.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: ProjectSettings\GraphicsSettings.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\InputManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: ProjectSettings\InputManager.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: ProjectSettings\NavMeshAreas.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\NetworkManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\NetworkManager.asset
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: ProjectSettings\NetworkManager.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: ProjectSettings\Physics2DSettings.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: ProjectSettings\ProjectSettings.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: ProjectSettings\QualitySettings.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: ProjectSettings\TagManager.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: ProjectSettings\TimeManager.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: ProjectSettings\UnityConnectSettings.asset
+      status: 6
+      staged: 0
+    - path: UnityEnv\ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityEnv\config\trainer_config.yaml
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\UnityEnv\config\trainer_config.yaml
+      projectPath: config\trainer_config.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: images\ants.png
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\images\ants.png
+      projectPath: ..\images\ants.png
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: images\banner.png
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\images\banner.png
+      projectPath: ..\images\banner.png
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: bc84b72f4577b3e804b8d898f336803eafaab0a9
+    mergeA: 
+    mergeB: 
+    authorName: mbaske
+    authorEmail: hello@baske.com
+    commitEmail: hello@baske.com
+    commitName: mbaske
+    summary: minor fixes
+    description: minor fixes
+    timeString: 2018-06-03T16:12:55.000+02:00
+    commitTimeString: 2018-06-03T16:12:55.000+02:00
+    changes:
+    - path: Assets\Robot-Ants\Scripts\Robot\Robot.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Robot.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Robot.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: README.md
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 8537e73c25ee2f24e360a3ffff7ca8814051f489
+    mergeA: 
+    mergeB: 
+    authorName: mbaske
+    authorEmail: hello@baske.com
+    commitEmail: hello@baske.com
+    commitName: mbaske
+    summary: fixed indentation
+    description: fixed indentation
+    timeString: 2018-06-02T20:38:21.000+02:00
+    commitTimeString: 2018-06-02T20:38:21.000+02:00
+    changes:
+    - path: Assets\Robot-Ants\Scripts\RL\AgentExplore.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\AgentExplore.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\AgentExplore.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\AgentWalk.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\AgentWalk.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\AgentWalk.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\Oscillator.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\Oscillator.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\Oscillator.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Body.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Body.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Body.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Foot.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Foot.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Foot.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Leg.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Leg.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Leg.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Limb.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Limb.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Limb.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Robot.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Robot.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Robot.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Socket.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Socket.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Socket.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\TrailBlob.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\TrailBlob.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\TrailBlob.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\CamControls.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\CamControls.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\CamControls.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\MousePos.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\MousePos.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\MousePos.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Stats.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Stats.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Stats.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\VectorUtil.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\VectorUtil.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\VectorUtil.cs
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: e165ca4ac8e765962129f0cd84ea191087c7945e
+    mergeA: 
+    mergeB: 
+    authorName: mbaske
+    authorEmail: hello@baske.com
+    commitEmail: hello@baske.com
+    commitName: mbaske
+    summary: added video link
+    description: added video link
+    timeString: 2018-06-02T18:44:20.000+02:00
+    commitTimeString: 2018-06-02T18:44:20.000+02:00
+    changes:
+    - path: README.md
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 9435f42af5c4fabfb706a66c31c78cd2471d3c63
+    mergeA: 
+    mergeB: 
+    authorName: mbaske
+    authorEmail: hello@baske.com
+    commitEmail: hello@baske.com
+    commitName: mbaske
+    summary: removed video link
+    description: removed video link
+    timeString: 2018-06-02T17:29:23.000+02:00
+    commitTimeString: 2018-06-02T17:29:23.000+02:00
+    changes:
+    - path: README.md
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 58dcab68671e3d511ba541b2406d2bcd10e0b760
+    mergeA: 
+    mergeB: 
+    authorName: mbaske
+    authorEmail: hello@baske.com
+    commitEmail: hello@baske.com
+    commitName: mbaske
+    summary: Initial commit
+    description: "Initial commit\r\n\r\nInitial commit"
+    timeString: 2018-06-02T17:17:12.000+02:00
+    commitTimeString: 2018-06-02T17:17:12.000+02:00
+    changes:
+    - path: README.md
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: images\ants.png
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\images\ants.png
+      projectPath: ..\images\ants.png
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 3b6e951f2615b47bbe16e7bd64ecb690ae814461
+    mergeA: 
+    mergeB: 
+    authorName: mbaske
+    authorEmail: hello@baske.com
+    commitEmail: hello@baske.com
+    commitName: mbaske
+    summary: Initial commit
+    description: "Initial commit\r\n\r\nInitial commit"
+    timeString: 2018-06-02T16:24:11.000+02:00
+    commitTimeString: 2018-06-02T16:24:11.000+02:00
+    changes:
+    - path: Assets\ML-Agents.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents.meta
+      projectPath: ..\Assets\ML-Agents.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Editor.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor.meta
+      projectPath: ..\Assets\ML-Agents\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Editor\AgentEditor.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\AgentEditor.cs
+      projectPath: ..\Assets\ML-Agents\Editor\AgentEditor.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Editor\AgentEditor.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\AgentEditor.cs.meta
+      projectPath: ..\Assets\ML-Agents\Editor\AgentEditor.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Editor\BrainEditor.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\BrainEditor.cs
+      projectPath: ..\Assets\ML-Agents\Editor\BrainEditor.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Editor\BrainEditor.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\BrainEditor.cs.meta
+      projectPath: ..\Assets\ML-Agents\Editor\BrainEditor.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Editor\MLAgentsEditModeTest.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\MLAgentsEditModeTest.cs
+      projectPath: ..\Assets\ML-Agents\Editor\MLAgentsEditModeTest.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Editor\MLAgentsEditModeTest.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\MLAgentsEditModeTest.cs.meta
+      projectPath: ..\Assets\ML-Agents\Editor\MLAgentsEditModeTest.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Editor\ResetParameterDrawer.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\ResetParameterDrawer.cs
+      projectPath: ..\Assets\ML-Agents\Editor\ResetParameterDrawer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Editor\ResetParameterDrawer.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Editor\ResetParameterDrawer.cs.meta
+      projectPath: ..\Assets\ML-Agents\Editor\ResetParameterDrawer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Plugins.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins.meta
+      projectPath: ..\Assets\ML-Agents\Plugins.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Plugins\JSON.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins\JSON.meta
+      projectPath: ..\Assets\ML-Agents\Plugins\JSON.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Plugins\JSON\Newtonsoft.Json.dll
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins\JSON\Newtonsoft.Json.dll
+      projectPath: ..\Assets\ML-Agents\Plugins\JSON\Newtonsoft.Json.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Plugins\JSON\Newtonsoft.Json.dll.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins\JSON\Newtonsoft.Json.dll.meta
+      projectPath: ..\Assets\ML-Agents\Plugins\JSON\Newtonsoft.Json.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Plugins\System.Numerics.dll
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins\System.Numerics.dll
+      projectPath: ..\Assets\ML-Agents\Plugins\System.Numerics.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Plugins\System.Numerics.dll.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins\System.Numerics.dll.meta
+      projectPath: ..\Assets\ML-Agents\Plugins\System.Numerics.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Plugins\System.ValueTuple.dll
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins\System.ValueTuple.dll
+      projectPath: ..\Assets\ML-Agents\Plugins\System.ValueTuple.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Plugins\System.ValueTuple.dll.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Plugins\System.ValueTuple.dll.meta
+      projectPath: ..\Assets\ML-Agents\Plugins\System.ValueTuple.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts.meta
+      projectPath: ..\Assets\ML-Agents\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Academy.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Academy.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\Academy.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Academy.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Academy.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\Academy.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Agent.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Agent.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\Agent.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Agent.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Agent.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\Agent.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\BCTeacherHelper.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\BCTeacherHelper.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\BCTeacherHelper.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\BCTeacherHelper.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\BCTeacherHelper.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\BCTeacherHelper.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Brain.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Brain.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\Brain.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Brain.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Brain.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\Brain.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Communicator.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Communicator.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\Communicator.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Communicator.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Communicator.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\Communicator.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrain.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrain.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrain.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrain.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrain.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrain.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainExternal.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainExternal.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainExternal.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainExternal.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainExternal.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainExternal.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainHeuristic.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainHeuristic.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainHeuristic.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainHeuristic.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainHeuristic.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainHeuristic.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainInternal.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainInternal.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainInternal.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainInternal.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainInternal.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainInternal.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainPlayer.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainPlayer.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\CoreBrainPlayer.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\CoreBrainPlayer.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\CoreBrainPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Decision.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Decision.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\Decision.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Decision.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Decision.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\Decision.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\ExternalCommunicator.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\ExternalCommunicator.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\ExternalCommunicator.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\ExternalCommunicator.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\ExternalCommunicator.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\ExternalCommunicator.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Monitor.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Monitor.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\Monitor.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\Monitor.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\Monitor.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\Monitor.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\ResetParameters.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\ResetParameters.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\ResetParameters.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\ResetParameters.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\ResetParameters.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\ResetParameters.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\UnityAgentsException.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\UnityAgentsException.cs
+      projectPath: ..\Assets\ML-Agents\Scripts\UnityAgentsException.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ML-Agents\Scripts\UnityAgentsException.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\ML-Agents\Scripts\UnityAgentsException.cs.meta
+      projectPath: ..\Assets\ML-Agents\Scripts\UnityAgentsException.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants.meta
+      projectPath: ..\Assets\Robot-Ants.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Main.unity
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Main.unity
+      projectPath: ..\Assets\Robot-Ants\Main.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Main.unity.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Main.unity.meta
+      projectPath: ..\Assets\Robot-Ants\Main.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Misc Items.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Misc Items.meta
+      projectPath: ..\Assets\Robot-Ants\Misc Items.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Misc Items\PowerUp.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Misc Items\PowerUp.mat
+      projectPath: ..\Assets\Robot-Ants\Misc Items\PowerUp.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Misc Items\PowerUp.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Misc Items\PowerUp.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Misc Items\PowerUp.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Misc Items\Trail.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Misc Items\Trail.mat
+      projectPath: ..\Assets\Robot-Ants\Misc Items\Trail.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Misc Items\Trail.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Misc Items\Trail.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Misc Items\Trail.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot.meta
+      projectPath: ..\Assets\Robot-Ants\Robot.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Body.prefab
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Body.prefab
+      projectPath: ..\Assets\Robot-Ants\Robot\Body.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Body.prefab.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Body.prefab.meta
+      projectPath: ..\Assets\Robot-Ants\Robot\Body.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Leg.prefab
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Leg.prefab
+      projectPath: ..\Assets\Robot-Ants\Robot\Leg.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Leg.prefab.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Leg.prefab.meta
+      projectPath: ..\Assets\Robot-Ants\Robot\Leg.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Materials.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Materials.meta
+      projectPath: ..\Assets\Robot-Ants\Robot\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Materials\Black.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Materials\Black.mat
+      projectPath: ..\Assets\Robot-Ants\Robot\Materials\Black.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Materials\Black.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Materials\Black.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Robot\Materials\Black.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Materials\Gray1.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Materials\Gray1.mat
+      projectPath: ..\Assets\Robot-Ants\Robot\Materials\Gray1.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Materials\Gray1.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Materials\Gray1.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Robot\Materials\Gray1.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Materials\Gray2.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Materials\Gray2.mat
+      projectPath: ..\Assets\Robot-Ants\Robot\Materials\Gray2.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Materials\Gray2.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Materials\Gray2.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Robot\Materials\Gray2.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Materials\Gray3.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Materials\Gray3.mat
+      projectPath: ..\Assets\Robot-Ants\Robot\Materials\Gray3.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\Materials\Gray3.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\Materials\Gray3.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Robot\Materials\Gray3.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\RobotAnt.prefab
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\RobotAnt.prefab
+      projectPath: ..\Assets\Robot-Ants\Robot\RobotAnt.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Robot\RobotAnt.prefab.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Robot\RobotAnt.prefab.meta
+      projectPath: ..\Assets\Robot-Ants\Robot\RobotAnt.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\PowerUp.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\PowerUp.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\PowerUp.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\PowerUp.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\PowerUp.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\PowerUp.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\AgentExplore.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\AgentExplore.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\AgentExplore.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\AgentExplore.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\AgentExplore.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\AgentExplore.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\AgentWalk.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\AgentWalk.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\AgentWalk.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\AgentWalk.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\AgentWalk.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\AgentWalk.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\HeuristicWalker.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\Oscillator.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\Oscillator.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\Oscillator.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\Oscillator.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\Oscillator.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\Oscillator.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\RobotAcademy.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\RobotAcademy.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\RobotAcademy.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\RL\RobotAcademy.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\RL\RobotAcademy.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\RL\RobotAcademy.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Body.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Body.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Body.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Body.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Body.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Body.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Foot.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Foot.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Foot.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Foot.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Foot.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Foot.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Leg.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Leg.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Leg.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Leg.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Leg.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Leg.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Limb.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Limb.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Limb.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Limb.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Limb.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Limb.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Robot.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Robot.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Robot.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Robot.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Robot.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Robot.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Socket.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Socket.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Socket.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Robot\Socket.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Robot\Socket.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Robot\Socket.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\TrailBlob.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\TrailBlob.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\TrailBlob.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\TrailBlob.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\TrailBlob.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\TrailBlob.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\CamControls.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\CamControls.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\CamControls.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\CamControls.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\CamControls.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\CamControls.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\MousePos.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\MousePos.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\MousePos.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\MousePos.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\MousePos.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\MousePos.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPool.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\ObjectPoolContainer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\PoolManager.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Pool\Singleton.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Stats.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Stats.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Stats.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\Stats.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\Stats.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\Stats.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\VectorUtil.cs
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\VectorUtil.cs
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\VectorUtil.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Scripts\Util\VectorUtil.cs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Scripts\Util\VectorUtil.cs.meta
+      projectPath: ..\Assets\Robot-Ants\Scripts\Util\VectorUtil.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\TFModels.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\TFModels.meta
+      projectPath: ..\Assets\Robot-Ants\TFModels.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\TFModels\RobotAnts_RobotAnts.bytes
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\TFModels\RobotAnts_RobotAnts.bytes
+      projectPath: ..\Assets\Robot-Ants\TFModels\RobotAnts_RobotAnts.bytes
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\TFModels\RobotAnts_RobotAnts.bytes.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\TFModels\RobotAnts_RobotAnts.bytes.meta
+      projectPath: ..\Assets\Robot-Ants\TFModels\RobotAnts_RobotAnts.bytes.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\PrototypeCheckerAlbedo.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\PrototypeCheckerAlbedo.mat
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\PrototypeCheckerAlbedo.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\PrototypeCheckerAlbedo.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\PrototypeCheckerAlbedo.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\PrototypeCheckerAlbedo.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1.mat
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14.mat
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Ambient_Occlusion.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Ambient_Occlusion.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Ambient_Occlusion.tga
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Ambient_Occlusion.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Ambient_Occlusion.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Ambient_Occlusion.tga.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Diffuse.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Diffuse.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Diffuse.tga
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Diffuse.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Diffuse.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Diffuse.tga.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Height.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Height.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Height.tga
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Height.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Height.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Height.tga.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Metallic.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Metallic.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Metallic.tga
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Metallic.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Metallic.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Metallic.tga.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Normal.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Normal.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Normal.tga
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground14_Normal.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground14_Normal.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground14_Normal.tga.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Ambient_Occlusion.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Ambient_Occlusion.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Ambient_Occlusion.tga
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Ambient_Occlusion.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Ambient_Occlusion.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Ambient_Occlusion.tga.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Diffuse.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Diffuse.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Diffuse.tga
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Diffuse.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Diffuse.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Diffuse.tga.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Height.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Height.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Height.tga
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Height.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Height.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Height.tga.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Metallic.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Metallic.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Metallic.tga
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Metallic.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Metallic.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Metallic.tga.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Normal.tga
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Normal.tga
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Normal.tga
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Materials\ground1_Normal.tga.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Materials\ground1_Normal.tga.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Materials\ground1_Normal.tga.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Environment_1.fbx
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Environment_1.fbx
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Environment_1.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Environment_1.fbx.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Environment_1.fbx.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Environment_1.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Environment_1.prefab
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Environment_1.prefab
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Environment_1.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Environment_1.prefab.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Environment_1.prefab.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Environment_1.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Mounting_1.fbx
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Mounting_1.fbx
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Mounting_1.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Mounting_1.fbx.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Mounting_1.fbx.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Mounting_1.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Mounting_2.fbx
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Mounting_2.fbx
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Mounting_2.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Prefabs\Mounting_2.fbx.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Prefabs\Mounting_2.fbx.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Prefabs\Mounting_2.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\PrototypeCheckerAlbedo.png
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\PrototypeCheckerAlbedo.png
+      projectPath: ..\Assets\Robot-Ants\Terrain\PrototypeCheckerAlbedo.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\PrototypeCheckerAlbedo.png.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\PrototypeCheckerAlbedo.png.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\PrototypeCheckerAlbedo.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Skybox.mat
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Skybox.mat
+      projectPath: ..\Assets\Robot-Ants\Terrain\Skybox.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Robot-Ants\Terrain\Skybox.mat.meta
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\Assets\Robot-Ants\Terrain\Skybox.mat.meta
+      projectPath: ..\Assets\Robot-Ants\Terrain\Skybox.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\AudioManager.asset
+      projectPath: ..\ProjectSettings\AudioManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\ClusterInputManager.asset
+      projectPath: ..\ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\DynamicsManager.asset
+      projectPath: ..\ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ..\ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\EditorSettings.asset
+      projectPath: ..\ProjectSettings\EditorSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\GraphicsSettings.asset
+      projectPath: ..\ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\InputManager.asset
+      projectPath: ..\ProjectSettings\InputManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\NavMeshAreas.asset
+      projectPath: ..\ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\NetworkManager.asset
+      projectPath: ..\ProjectSettings\NetworkManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\Physics2DSettings.asset
+      projectPath: ..\ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\PresetManager.asset
+      projectPath: ..\ProjectSettings\PresetManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\ProjectSettings.asset
+      projectPath: ..\ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\ProjectVersion.txt
+      projectPath: ..\ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\QualitySettings.asset
+      projectPath: ..\ProjectSettings\QualitySettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\TagManager.asset
+      projectPath: ..\ProjectSettings\TagManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\TimeManager.asset
+      projectPath: ..\ProjectSettings\TimeManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ..\ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: dd636d9b67390c4662e515745edea43a36875843
+    mergeA: 
+    mergeB: 
+    authorName: Mathias Baske
+    authorEmail: hello@baske.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Initial commit
+    description: Initial commit
+    timeString: 2018-06-02T15:34:18.000+02:00
+    commitTimeString: 2018-06-02T15:34:18.000+02:00
+    changes:
+    - path: LICENSE
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\LICENSE
+      projectPath: ..\LICENSE
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: README.md
+      fullPath: C:\Users\Enc0de\ml-agents\env\robot-ants\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      status: 4
+      staged: 0
