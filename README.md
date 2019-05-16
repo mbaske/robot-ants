@@ -1,3 +1,7 @@
+## This Project has been modified By DroneMesh to run the latest Ml-Agents with no modifications needed.
+
+## The current models are not trained
+
 ## Robot Ants - [Video](https://www.youtube.com/watch?v=EwB8XXCYOsc)
 
 <img src="images/banner.png" align="middle" width="1920"/>
