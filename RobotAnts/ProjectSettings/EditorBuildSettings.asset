@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/RobotAnts/Scenes/WalkTrainer.unity
+    guid: 7fc91625149378a4ab4cb329bef35374
+  - enabled: 0
+    path: Assets/RobotAnts/Scenes/SearchTrainer.unity
+    guid: 947dfb477e54d8d47b5398f271850116
+  m_configObjects: {}
