@@ -29,7 +29,7 @@ Walker:
     time_horizon: 1000
     batch_size: 2024
     buffer_size: 20240
-    max_steps: 10e6
+    max_steps: 5e6
     summary_freq: 5000
     num_layers: 2
     hidden_units: 512
@@ -44,7 +44,7 @@ Searcher:
     time_horizon: 1000
     batch_size: 2024
     buffer_size: 20240
-    max_steps: 5e6
+    max_steps: 10e6
     summary_freq: 5000
     num_layers: 2
     hidden_units: 64

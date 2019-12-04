@@ -30,11 +30,8 @@ public class Searcher : Agent
     private Renderer energyRenderer;
     private Material energyMaterial;
 
-    private SearchAcademy academy;
-
     public override void InitializeAgent()
     {
-        academy = FindObjectOfType<SearchAcademy>();
         lmObstacles = (1 << Layers.BODY) | (1 << Layers.WALL);
         energyAttenuation = 1f / energyDepletionTime;
 
@@ -78,7 +75,7 @@ public class Searcher : Agent
         AddVectorObs(walker.WalkDirection);
     }
 
-    public override void AgentAction(float[] vectorAction, string textAction)
+    public override void AgentAction(float[] vectorAction)
     {
         walker.WalkDirection = vectorAction[0];
     }

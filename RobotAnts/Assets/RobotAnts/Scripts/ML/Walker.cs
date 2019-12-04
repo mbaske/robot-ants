@@ -41,7 +41,7 @@ public class Walker : Agent
         AddVectorObs(WalkDirection); // 1
     }
 
-    public override void AgentAction(float[] vectorAction, string textAction)
+    public override void AgentAction(float[] vectorAction)
     {
         // Interpolate action values between decision steps for smoother movements.
         int step = GetStepCount() % interval + 1;

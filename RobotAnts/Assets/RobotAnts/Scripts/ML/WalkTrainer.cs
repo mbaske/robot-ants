@@ -32,11 +32,6 @@ public class WalkTrainer : Walker
         {
             RandomizeTarget();
         }
-
-        // if (!AgentUtil.ValidateObservations(this))
-        // {
-        //     Done();
-        // }
     }
 
     private void RandomizeTarget()
