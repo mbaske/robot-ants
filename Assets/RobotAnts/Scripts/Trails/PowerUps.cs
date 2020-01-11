@@ -11,14 +11,12 @@ public class PowerUps : MonoBehaviour
     [SerializeField]
     private float spawnRadius = 100;
 
-    private int lmGround;
-    private int lmPowerUp;
+    private readonly int lmGround = 1 << Layers.GROUND;
+    private readonly int lmPowerUp = 1 << Layers.POWERUP;
     private Collider[] colliders;
 
     public void Initialize()
     {
-        lmGround = 1 << Layers.GROUND;
-        lmPowerUp = 1 << Layers.POWERUP;
         colliders = new Collider[1];
         ContactRadius = prefab.transform.localScale.x * 0.5f;
         for (int i = 0; i < amount; i++)

@@ -17,7 +17,7 @@ public class WalkTrainer : Walker
     {
         Vector3 delta = target.position - body.transform.position;
         Vector3 dirXZ = Vector3.ProjectOnPlane(delta, Vector3.up).normalized;
-        WalkDirection = Vector3.SignedAngle(dirXZ, body.HeadingXZ, Vector3.up) / 180f;
+        WalkDirection = Vector3.SignedAngle(dirXZ, body.ForwardXZ, Vector3.up) / 180f;
 
         base.CollectObservations();
 

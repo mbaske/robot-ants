@@ -2,6 +2,7 @@
 
 public static class AgentUtil
 {
+    // http://fooplot.com/#W3sidHlwZSI6MCwiZXEiOiJ4LygxK2Ficyh4KSkiLCJjb2xvciI6IiMwMDAwMDAifSx7InR5cGUiOjEwMDAsIndpbmRvdyI6WyItMTIiLCIxMiIsIi0xLjIiLCIxLjIiXX1d
     public static float Sigmoid(float val)
     {
         return val / (1f + Mathf.Abs(val));

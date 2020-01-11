@@ -4,7 +4,7 @@ using UnityEngine;
 public class Body : MonoBehaviour
 {
     public Vector3 VelocityXZ => Vector3.ProjectOnPlane(rb.velocity, Vector3.up);
-    public Vector3 HeadingXZ => Vector3.ProjectOnPlane(transform.forward, Vector3.up).normalized;
+    public Vector3 ForwardXZ => Vector3.ProjectOnPlane(transform.forward, Vector3.up).normalized;
     public RaycastHit RaycastHit { get; private set; }
 
     [SerializeField]
@@ -15,12 +15,11 @@ public class Body : MonoBehaviour
     private Rigidbody rb;
     private List<float> obs;
     private Vector3 offset;
-    private int lmGround;
+    private readonly int lmGround = 1 << Layers.GROUND; 
 
     public void Initialize(Vector3 offset)
     {
         this.offset = offset;
-        lmGround = 1 << Layers.GROUND; 
         CastDownRay();
 
         rb = GetComponent<Rigidbody>();

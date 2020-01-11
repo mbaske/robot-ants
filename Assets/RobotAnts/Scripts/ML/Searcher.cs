@@ -14,7 +14,7 @@ public class Searcher : Agent
     [SerializeField]
     private float obstacleDetectionRadius = 3f;
     protected float cumlObstacleProximity;
-    private int lmObstacles;
+    private readonly int lmObstacles = (1 << Layers.BODY) | (1 << Layers.WALL);
 
     [SerializeField]
     private float energyDepletionTime = 20f;
@@ -32,10 +32,8 @@ public class Searcher : Agent
 
     public override void InitializeAgent()
     {
-        lmObstacles = (1 << Layers.BODY) | (1 << Layers.WALL);
         energyAttenuation = 1f / energyDepletionTime;
-
-        energyMaterial = Instantiate(energyRenderer.material);
+        energyMaterial = Instantiate(energyRenderer.material); // clone
         energyRenderer.material = energyMaterial;
     }
 
@@ -52,7 +50,7 @@ public class Searcher : Agent
     public void OnDetectionResult(NativeArray<float> result)
     {
         Vector3 trailDelta = new Vector3(result[0], 0, result[1]);
-        trailDirection = Vector3.SignedAngle(body.HeadingXZ, trailDelta, Vector3.up) / 180f;
+        trailDirection = Vector3.SignedAngle(body.ForwardXZ, trailDelta, Vector3.up) / 180f;
         trailStrength = result[2];
         Debug.DrawRay(Position, trailDelta, Color.Lerp(Color.blue, Color.cyan, trailStrength));
     }
@@ -90,7 +88,7 @@ public class Searcher : Agent
     {
         cumlObstacleProximity = 0;
         Vector3 pos = body.RaycastHit.point + Vector3.up * 0.5f;
-        Vector3 heading = body.HeadingXZ;
+        Vector3 heading = body.ForwardXZ;
         for (int angle = 0; angle < 360; angle += 45)
         {
             Vector3 dir = Quaternion.Euler(0, angle, 0) * heading;

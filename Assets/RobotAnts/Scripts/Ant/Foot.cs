@@ -13,7 +13,7 @@ public class Foot : MonoBehaviour
 
     private RaycastHit hit;
     private float distance;
-    private int lmGround;
+    private readonly int lmGround = 1 << Layers.GROUND; 
     private const float thresh = 0.08f;
 
     public void Initialize(Transform body, int solverIterations)
@@ -22,8 +22,6 @@ public class Foot : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.solverIterations = solverIterations;
         joint = GetComponent<ConfigurableJoint>();
-
-        lmGround = 1 << Layers.GROUND; 
         CastDownRay();
     }
 

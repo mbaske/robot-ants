@@ -43,7 +43,7 @@ public class Walker : Agent
 
     public override void AgentAction(float[] vectorAction)
     {
-        // Interpolate action values between decision steps for smoother movements.
+        // Interpolate action values between decision steps for smoother movement.
         int step = GetStepCount() % interval + 1;
         float t = step / (float)interval;
         for (int i = 0; i < nActions; i++)
