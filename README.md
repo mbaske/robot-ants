@@ -11,3 +11,6 @@ The lower-tier agent ("walker") observes the bot's movement and body inclination
 The upper-tier agent ("searcher") observes the bot's energy level, the average trail strength in its vicinity and the direction towards the densest concentration of nearby trail points. The model's single output value serves as the walking direction for the "walker" agent. For training the desired behaviour, energy levels below zero and proximity to trails are penalized. The agent has to choose the least unfavourable action, which depends on the current energy level. As long as that level is high enough, ants will avoid trails and explore new terrain. Once it drops too low, they start following detected trails until they find a power-up.
 
 Ant Design: Ergin3D (modified) via [turbosquid](https://www.turbosquid.com/FullPreview/Index.cfm/ID/1339233).
+
+Dependencies:  
+https://github.com/Unity-Technologies/ml-agents/releases/tag/0.12.0
