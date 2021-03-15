@@ -296,7 +296,7 @@ MonoBehaviour:
   m_SensorName: GridSensor
   m_CompressionType: 1
   m_StackedObservations: 1
-  m_ColliderBufferSize: 128
+  m_ColliderBufferSize: 256
   m_ClearCacheOnReset: 0
   m_AddDetectableObject: {fileID: 0}
   m_Detectables:
