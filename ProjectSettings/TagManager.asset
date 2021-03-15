@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ant
+  - Trail
+  - Powerup
   layers:
   - Default
   - TransparentFX
@@ -12,13 +14,13 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
   - Ground
-  - Body
-  - Foot
-  - PowerUp
-  - Wall
+  - Ant
+  - AntDetectable
+  - Powerup
+  - Trail
+  - 
+  - 
   - 
   - 
   - 

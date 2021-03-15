@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/RobotAnts/Scenes/WalkTrainer.unity
-    guid: 7fc91625149378a4ab4cb329bef35374
   - enabled: 0
-    path: Assets/RobotAnts/Scenes/SearchTrainer.unity
-    guid: 947dfb477e54d8d47b5398f271850116
+    path: Assets/Scenes/WalkerTrain.unity
+    guid: 5aa6a0167b9c8f243949983cbbc0bf8d
+  - enabled: 1
+    path: Assets/Scenes/SearcherTrain.unity
+    guid: e17d8c9bf6ace264f8a838f53e454fab
   m_configObjects: {}
