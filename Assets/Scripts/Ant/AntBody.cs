@@ -21,10 +21,5 @@ namespace MBaske.RobotAnts
         {
             return transform.InverseTransformDirection(v);
         }
-
-        public void ToggleFreeze(bool freeze)
-        {
-            m_Rigidbody.freezeRotation = freeze;
-        }
     }
 }

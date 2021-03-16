@@ -29,6 +29,7 @@ namespace MBaske.RobotAnts
             }
             else
             {
+                m_Energy = 0;
                 Discard();
             }
         }
