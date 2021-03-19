@@ -331,7 +331,7 @@ MonoBehaviour:
       m_ObservationsList:
       - Energy
   m_GridSize: {x: 32, y: 32}
-  m_Rotate: 1
+  m_RotationType: 1
   m_EditorBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 16, y: 2, z: 16}

@@ -10,13 +10,19 @@ namespace MBaske.RobotAnts
 
         [SerializeField]
         private Gradient m_Gradient;
-        private Material m_Material;
+        private Renderer m_Renderer;
+        private MaterialPropertyBlock m_MPB;
+
+        private void Awake()
+        {
+            m_MPB = new MaterialPropertyBlock();
+            m_Renderer = GetComponentInChildren<Renderer>();
+        }
 
         public void SetEnergy(float value)
         {
             m_Energy = value;
-            m_Material ??= GetComponent<Renderer>().material;
-            m_Material.SetColor("_Color", m_Gradient.Evaluate(m_Energy));
+            UpdateColor();
         }
 
         public void UpdateEnergy(float decrement)
@@ -25,13 +31,20 @@ namespace MBaske.RobotAnts
 
             if (m_Energy > 0)
             {
-                m_Material.SetColor("_Color", m_Gradient.Evaluate(m_Energy));
+                UpdateColor();
             }
             else
             {
                 m_Energy = 0;
                 Discard();
             }
+        }
+
+        private void UpdateColor()
+        {
+            m_Renderer.GetPropertyBlock(m_MPB);
+            m_MPB.SetColor("_Color", m_Gradient.Evaluate(m_Energy));
+            m_Renderer.SetPropertyBlock(m_MPB);
         }
     }
 }

@@ -52,7 +52,7 @@ namespace MBaske.Sensors.Grid
                 obj.RuntimeInitialize();
                 return obj;
             }
- 
+
             throw new KeyNotFoundException("No DetectableGameObject associated with collider " + cld);
         }
 
